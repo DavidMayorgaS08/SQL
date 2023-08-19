@@ -282,4 +282,4 @@ select titulo from obra_arte where id in (select id_obra from ventas where id > 
 
 /*Listar las obras de arte que contengan la frase "el" en su titulo*/
 
-select * from obra_arte where titulo like '%el%';
+select titulo from obra_arte where titulo like '%el%';
