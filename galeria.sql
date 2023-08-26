@@ -283,3 +283,10 @@ select titulo from obra_arte where id in (select id_obra from ventas where id > 
 /*Listar las obras de arte que contengan la frase "el" en su titulo*/
 
 select titulo from obra_arte where titulo like '%el%';
+
+
+/*Eliminiar y modificar datos*/
+
+/*Modificar el nombre de una institucion*/
+
+update Institucion set nombre = 'Nuevo museo de Arte Moderno' where cc = 14895555;
